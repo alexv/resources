@@ -9,6 +9,7 @@
 ## Guides
 
 - [Basarat's TypeScript Deep Dive](https://basarat.gitbooks.io/typescript/)
+- [Using React with Typescript](https://github.com/sw-yx/react-typescript-cheatsheet)
 
 ## Projects
 

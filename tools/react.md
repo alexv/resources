@@ -10,6 +10,7 @@
 
 - [Official Tutorial](https://reactjs.org/tutorial/tutorial.html)
 - [Build with React](http://buildwithreact.com/tutorial)
+- [Using Typescript with React](https://github.com/sw-yx/react-typescript-cheatsheet)
 
 ## Projects
 
