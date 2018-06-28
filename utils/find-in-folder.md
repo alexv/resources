@@ -16,11 +16,14 @@ const { exec } = require('child_process');
 exec(`grep -r ${process.argv[2]} ${process.argv[3]}`, (err, stdout) => {
   if (err) {
     if (err.code === 1){
-      console.log('Not Found')
+      console.log(`The string ${process.argv[2]} was not found in directory ${process.argv[3]}.`)
     } else {
       console.log('Error: ' + err)
     }
+    return false
   }
-  console.log('Found')
+  console.log(`The string ${process.argv[2]} was found in directory ${process.argv[3]}.`)
+  console.log(stdout)
+  return true
 })
 ```

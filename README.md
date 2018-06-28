@@ -13,3 +13,7 @@ A collection of resources for learning things, updated regularly as things are l
 - [React](./tools/react.md)
 - [Angular](./tools/angular.md)
 - [D3](./tools/d3.md)
+
+## Utils
+
+- [Find in Folder](./utils/find-in-folder.md)
