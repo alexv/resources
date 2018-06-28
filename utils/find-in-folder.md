@@ -20,10 +20,10 @@ exec(`grep -r ${process.argv[2]} ${process.argv[3]}`, (err, stdout) => {
     } else {
       console.log('Error: ' + err)
     }
-    return false
+    return err
   }
   console.log(`The string ${process.argv[2]} was found in directory ${process.argv[3]}.`)
   console.log(stdout)
-  return true
+  return stdout
 })
 ```
